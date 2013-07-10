@@ -1,5 +1,13 @@
-extends layout
+html
+  include includes/head
+  body
+    h1 my site
+    p welcome to my super amazing
 
-block content
-  h1= title
-  p Welcome to #{title}
+    - users = [{name: 'tobi', occ: 'ferr'}]
+
+    each user in users
+      .user
+        include user
+
+  include includes/foot
