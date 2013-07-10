@@ -9,5 +9,4 @@ server = http.createServer(function(req, res){
   });
   res.end('Head World');
 }).listen(port, ip);
-
 console.log("server is running" + ip + ":" + port);
