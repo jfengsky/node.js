@@ -2,8 +2,7 @@
   * url.parse(url,qs,sl) 将url解析为一个对象，其中包含host,hostname,port等字段，若qs为true，则调用querystring解析查询串
   * url.format(obj) 将obj生成为一个url字符串
   * querystring.stringify(obj,'sep','eq') 将对象obj生成查询串
-
-
+  
 
         //url test
         var url = require('url');
@@ -46,4 +45,4 @@
 
 
 
-原文地址：Node.js开发指南之二：核心模块介绍(http://blog.csdn.net/zzulp/article/details/8111427)
+原文地址：Node.js开发指南之二：核心模块介绍[http://blog.csdn.net/zzulp/article/details/8111427]
