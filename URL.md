@@ -4,6 +4,7 @@
   * querystring.stringify(obj,'sep','eq') 将对象obj生成查询串
 
 
+
         //url test
         var url = require('url');
         var qs = 'http://user:pass@host.com:8080/p/a/t/h?query=string#hash';
