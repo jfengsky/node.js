@@ -18,13 +18,13 @@ http.createServer(function(req, res){
   var pathName = url.parse(req.url).pathname,
     fileListlink = '';
   res.writeHead(200,{
-    'Content-Type': 'text/plain'
+    'Content-Type': 'text/html; charset=utf-8'
   });
   fs.readdir('.', function(err, list) {
 
     var fileLength = list.length;
     for(var i = 0; i < fileLength; i++) {
-      fileListlink += '<li>' + list[i] + '</li>'
+      fileListlink += '<li>' + list[i] + '</li>';
     }
     res.write(fileBodyList(fileListlink));
     res.end();
