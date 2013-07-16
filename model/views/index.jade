@@ -2,4 +2,8 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  //- p Welcome to #{filelist}
+  ul
+  - each val in filelist
+    li
+      a(href="/index") #{val}
