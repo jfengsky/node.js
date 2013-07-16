@@ -8,7 +8,9 @@ var fs = require("fs"),
 
 
 fs.readdir(modPath, function(err, list){
-  fileList = list
+  for (var i = 0; i < list.length; i++) {
+    fileList.push(list[i].replace('.jade',''));
+  }
 });
 
 

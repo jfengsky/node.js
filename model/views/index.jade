@@ -1,8 +1,12 @@
-extends layout
-
-block content
-  h1= title
-  //- p Welcome to #{filelist}
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+  .top
+    h1= title
+    //- p Welcome to #{filelist}
   ul
   - each val in filelist
     li
