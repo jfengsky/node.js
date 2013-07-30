@@ -3,11 +3,13 @@
  * Module dependencies.
  */
 
-var express = require('express')
-  , routes = require('./routes')
-  , user = require('./routes/user')
-  , http = require('http')
-  , path = require('path');
+var express = require('express'),
+  routes = require('./routes'),
+  user = require('./routes/user'),
+  http = require('http'),
+  path = require('path'),
+  filelist = require('./routes/mods/filelist');
+
 
 var app = express();
 
@@ -26,6 +28,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
+
+filelist.filelist('.');
+
+
 
 app.get('/', routes.index);
 app.get('/users', user.list);

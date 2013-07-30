@@ -1,6 +1,6 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   grunt.initConfig({
-    pkg : grunt.file.readJSON('package.json'),
+    pkg: grunt.file.readJSON('package.json'),
     compass: {
       dist: {
         options: {
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
       },
       combine: {
         files: {
-          'assets/css/combo-min.css':[
+          'assets/css/combo-min.css': [
             'assets/css/reset.css',
             'assets/css/a.css',
             'assets/css/b.css'
