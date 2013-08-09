@@ -7,7 +7,7 @@ function start(response) {
     'charset=UTF-8" />'+
     '</head>'+
     '<body>'+
-    '<form action="/upload" method="post">'+
+    '<form action="/upload" method` ="post">'+
     '<textarea name="text" rows="20" cols="60"></textarea>'+
     '<input type="submit" value="Submit text" />'+
     '</form>'+

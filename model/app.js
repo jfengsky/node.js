@@ -31,8 +31,6 @@ if ('development' == app.get('env')) {
 
 filelist.filelist('.');
 
-
-
 app.get('/', routes.index);
 app.get('/users', user.list);
 

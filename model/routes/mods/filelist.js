@@ -8,11 +8,10 @@ var fs = require('fs');
 
 exports.filelist = function(modPath){
   fs.readdir(modPath, function(err, list){
-    var fileList = list;
-    for(var i = 0; i < list.length; i++){
-      fileList.push(list[i].replace('.jade',''));
-    }
-    return fileList;
-    console.log(fileList);
+//    var fileList = list;
+//    for(var i = 0; i < list.length; i++){
+//      fileList.push(list[i].replace('.jade',''));
+//    }
+    return list;
   });
 }
