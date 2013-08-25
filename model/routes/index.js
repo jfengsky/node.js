@@ -55,6 +55,7 @@ module.exports = function(app){
         fileLength = fileList.length,
         fileInfo = [],
         filesList = '';
+
     if(fileLength > 0) {
       for(var i = 0; i < fileLength; i++){
         fileStat = fs.statSync(viewDir + '/' + fileList[i]);
@@ -66,9 +67,7 @@ module.exports = function(app){
 
         filesList += fileInfo.join('|') + ',';
       }
-    }
-
-    console.log(filesList);
+    };
 
     res.render('index', { title: 'index'});
   })
