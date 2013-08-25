@@ -4,7 +4,10 @@
  */
 
 var fs = require('fs'),
-  path = require('path');
+//  path = require('path'),
+  url = require('url');
+
+
 
 function fileName(arr){
   var arrLength = arr.length,
@@ -17,25 +20,56 @@ function fileName(arr){
   return arrName;
 }
 
-function requestPath(app, path){
-  var pathLength = path.length,
-      fileName = '';
-  if(pathLength > 0){
-    for(var i = 0; i < pathLength; i++){
-      fileName = path[i];
-      app.get('/' + fileName, function(req, res){
-        res.render(fileName, { title: fileName});
-      });
-    }
-  }
-}
+//function requestPath(app, path){
+//  var pathLength = path.length,
+//      fileName = '';
+//  if(pathLength > 0){
+//    for(var i = 0; i < pathLength; i++){
+//      fileName = path[i];
+//      app.get('/' + fileName, function(req, res){
+//        res.render(fileName, { title: fileName});
+//      });
+//    }
+//  }
+//}
+
+
+/**
+ * [{
+ *   fileName: string,
+ *   isDir: false,
+ *   size: number,
+ *   mtime: date
+ * },{...}]
+ * [[name,isDir,size,mtime],[...]]
+ * @param app
+ */
 
 module.exports = function(app){
-  fs.readdir('./views', function(err, files){
-    if(err){
-      console.log('get files err');
-    } else {
-      requestPath(app,fileName(files));
+  var viewDir = './views';
+//      filesList = [];
+
+  app.get('/', function(req, res){
+    var fileList = fs.readdirSync(viewDir),
+        fileStat,
+        fileLength = fileList.length,
+        fileInfo = [],
+        filesList = '';
+    if(fileLength > 0) {
+      for(var i = 0; i < fileLength; i++){
+        fileStat = fs.statSync(viewDir + '/' + fileList[i]);
+
+        fileInfo[0] = fileList[i];
+        fileInfo[1] = fileStat.size;
+        fileInfo[2] = new Date(fileStat.mtime).getTime();
+        fileInfo[3] = fileStat.isDirectory();
+
+        filesList += fileInfo.join('|') + ',';
+      }
     }
-  });
+
+    console.log(filesList);
+
+    res.render('index', { title: 'index'});
+  })
 };
