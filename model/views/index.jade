@@ -1,13 +1,41 @@
 extends inc/layout
 
 block content
-  h1= title
-  p index Welcome to #{title}
-//  each val in dirinfo.name
-//    li= val
-//  each isDir in dirinfo.isdir
-//    li= isDir
-//  - for (var i = 0; i < dirinfo.name.length; i++)
-//  li #{dirinfo.name[0]}
-//  span #{dirinfo.info[0].size}
-//  span #{dirinfo.info[0].mtime}
+  .top
+    h2 /index.html
+    h3 node.js
+
+  .content
+    .folder.cf
+      ul
+        li
+          span
+          b 文件夹名
+          span  100KB
+          span  2013-08-26 21:35
+
+        li
+          span
+          b 文件夹名
+          span  100KB
+          span  2013-08-26 21:35
+
+        li
+          span
+          b 文件夹名
+          span  100KB
+          span  2013-08-26 21:35
+
+        li
+          span
+          b 文件夹名
+          span  100KB
+          span  2013-08-26 21:35
+
+    .files.cf
+      ul
+        li
+          span
+          b 文件名
+          span  100KB
+          span  2013-08-26 21:35

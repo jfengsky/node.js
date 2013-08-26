@@ -1,0 +1,57 @@
+/**
+ * @Description:
+ * @author: jiangfeng (jfengsky@gmail.com)
+ * @Date: 2013-08-26 21:22
+ */
+
+body, h1, h2, h3, ul, li, p
+  padding: 0
+  margin: 0
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+
+ul, li
+  list-style: none
+
+.cf:before, .cf:after
+  content: ""
+  display: table
+.cf:after
+  clear: both
+.cf
+  *zoom: 1
+
+.top
+  height: 50px
+  background: #333
+  color: #fff
+  padding: 0 10px
+  line-height: 50px
+  box-shadow: 1px 1px 10px #333
+  h2
+    float: left
+    line-height: 50px
+    font-size: 24px
+  h3
+    float: right
+    line-height: 50px
+
+
+.content
+  width: 96%
+  margin: 20px auto auto
+
+.folder, .files
+  padding: 10px 0
+  border-bottom: 1px solid #eee
+
+.folder li, .files li
+  width: 100px
+  height: 100px
+  border: 1px solid white
+  border-radius: 5px
+  float: left
+  margin: 10px
+  &:hover
+    border: 1px solid #ccc
+    box-shadow: 0 0 10px #eee
+    background: #f6f7f8
