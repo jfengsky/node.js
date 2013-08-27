@@ -4,54 +4,42 @@
  */
 
 var fs = require('fs'),
-//  path = require('path'),
   url = require('url');
 
-
-
-function fileName(arr){
-  var arrLength = arr.length,
-      arrName = [''];
-  if(arrLength > 0){
-    for(var i = 0; i < arrLength; i ++){
-      arrName.push(arr[i].split('.')[0]);
-    }
-  }
-  return arrName;
-}
-
 module.exports = function(app){
-  var viewDir = './views';
+  var walk = function(dir, done) {
+    var results = [];
+    var fileItem = {};
+    fs.readdir(dir, function(err, list) {
+      if (err) return done(err);
+      var i = 0;
+      (function next() {
+        var file = list[i++];
+        if (!file) return done(null, results);
+        file = dir + '/' + file;
+        fs.stat(file, function(err, stat) {
+          fileItem = file + '|' + stat.isDirectory() + '|' + stat.size + '|' + new Date(stat.mtime).getTime();
+          results.push(fileItem);
+          next();
+        });
+      })();
+    });
+  };
+
+
 
   app.get('/', function(req, res){
     res.render('index', { title: 'index'});
   });
 
-
   app.get('/getfileinfo', function(req, res){
-    res.send(req.query.path);
+    var path = req.query.path;
+    walk(path, function(err, results) {
+      if (err) throw err;
+      res.send(results);
+    });
   });
 
-//  app.get('/', function(req, res){
-//    var fileList = fs.readdirSync(viewDir),
-//        fileStat,
-//        fileLength = fileList.length,
-//        fileInfo = [],
-//        filesList = '';
-//
-//    if(fileLength > 0) {
-//      for(var i = 0; i < fileLength; i++){
-//        fileStat = fs.statSync(viewDir + '/' + fileList[i]);
-//
-//        fileInfo[0] = fileList[i];
-//        fileInfo[1] = fileStat.size;
-//        fileInfo[2] = new Date(fileStat.mtime).getTime();
-//        fileInfo[3] = fileStat.isDirectory();
-//
-//        filesList += fileInfo.join('|') + ',';
-//      }
-//    };
-//
-//    res.render('index', { title: 'index'});
-//  })
+
+
 };
