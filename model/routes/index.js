@@ -14,11 +14,12 @@ module.exports = function(app){
       if (err) return done(err);
       var i = 0;
       (function next() {
-        var file = list[i++];
+        var file = list[i++],
+            filename = file;
         if (!file) return done(null, results);
         file = dir + '/' + file;
         fs.stat(file, function(err, stat) {
-          fileItem = file + '|' + stat.isDirectory() + '|' + stat.size + '|' + new Date(stat.mtime).getTime();
+          fileItem = filename + '|' + stat.isDirectory() + '|' + stat.size + '|' + new Date(stat.mtime).getTime();
           results.push(fileItem);
           next();
         });
