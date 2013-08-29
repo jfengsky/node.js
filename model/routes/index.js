@@ -19,7 +19,7 @@ module.exports = function(app){
         if (!file) return done(null, results);
         file = dir + '/' + file;
         fs.stat(file, function(err, stat) {
-          fileItem = filename + '|' + stat.isDirectory() + '|' + stat.size + '|' + new Date(stat.mtime).getTime();
+          fileItem = filename + '|'+ file + '|' + stat.isDirectory() + '|' + stat.size + '|' + new Date(stat.mtime).getTime();
           results.push(fileItem);
           next();
         });
