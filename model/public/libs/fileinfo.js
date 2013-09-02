@@ -64,7 +64,8 @@ $(function($){
     for(var i = 0, dataLength = data.length; i < dataLength; i++){
       tempArr = data[i].split('|');
       if(tempArr[2] === 'true'){
-        folderlist += '<li><div class="folde"><span class="bord"></span><em>文件夹</em><a href="javascript:void(0)" class="J_folderlink" data-href="' + tempArr[1] + '">'+ tempArr[0] +'</a></div></li>';
+        console.log(tempArr[1]);
+        folderlist += '<li><div class="folde"><span class="bord"></span><em>文件夹</em><a href="'+ tempArr[1] +'" class="J_folderlink" data-href="' + tempArr[1] + '">'+ tempArr[0] +'</a></div></li>';
       } else {
         filelist +='<li><div class="filebox"><span class="bord"></span><em>'+ setLastName(tempArr[0]) +'</em><a href="javascript:void(0)" data-href="">' + tempArr[0] + '</a><span class="size"> '+ setFileSize(tempArr[3]) +'</span><span class="time">'+ setTime(tempArr[4] - 0) +'</span></div></li>';
       }
@@ -72,10 +73,11 @@ $(function($){
     $('#J_folder').html(folderlist);
     $('#J_files').html(filelist);
   };
-    $('#J_folder').delegate('.J_folderlink', 'click', function(){
-      var path = $(this).attr('data-href');
-      getData(path);
-    });
+
+//    $('#J_folder').delegate('.J_folderlink', 'click', function(){
+//      var path = $(this).attr('data-href');
+//      getData(path);
+//    });
 
   getData('./views');
 });

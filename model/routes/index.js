@@ -27,11 +27,23 @@ module.exports = function(app){
     });
   };
 
+  console.log(app.route);
+
+  /**
+   * rotate path function
+   */
+  function createURL(path, pageName, els){
+    app.get(path, function(req, res){
+      res.render(pageName, els);
+    });
+  };
+
+  createURL('/', 'index', {title: 'index'});
 
 
-  app.get('/', function(req, res){
-    res.render('index', { title: 'index'});
-  });
+//  app.get('/', function(req, res){
+//    res.render('index', { title: 'index'});
+//  });
 
   app.get('/getfileinfo', function(req, res){
     var path = req.query.path;
