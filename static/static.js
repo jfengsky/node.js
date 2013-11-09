@@ -12,8 +12,7 @@ function toHtml(url, filePathName){
       data += chunk;
     });
     res.on('end', function(){
-      console.log(data);
-      fs.writeFile(filePathName, data, 'ascii', function(err){
+      fs.writeFile(filePathName, data, 'ascii', function(){
         console.log(filePathName + ' save success');
       });
     })
