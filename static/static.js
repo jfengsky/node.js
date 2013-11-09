@@ -4,15 +4,20 @@
 
 var http = require('http');
 var fs = require('fs');
-http.get('http://localhost:3000/', function(res){
-  var data = '';
-  res.on('data', function(chunk){
-    data += chunk;
-  });
-  res.on('end', function(){
-    console.log(data);
-    fs.writeFile('./html/demo.html', data, 'ascii', function(err){
-      console.log('save success');
+
+function toHtml(url, filePathName){
+  http.get(url, function(res){
+    var data = '';
+    res.on('data', function(chunk){
+      data += chunk;
     });
-  })
-});
+    res.on('end', function(){
+      console.log(data);
+      fs.writeFile(filePathName, data, 'ascii', function(err){
+        console.log(filePathName + ' save success');
+      });
+    })
+  });
+}
+
+toHtml('http://localhost:3000/', './html/demo.html');
