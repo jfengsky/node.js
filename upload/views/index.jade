@@ -4,5 +4,5 @@ block content
   h1= title
   p nodejs upload
   form(method="post", enctype="multipart/form-data" action="/file-upload")
-    input(type="file",name="thumbnail")
-    input(type="submit",value="upload")
+    input(type="file",name="thumbnail" class="btn")
+    button(type="submit",class="btn btn-primary") upload
