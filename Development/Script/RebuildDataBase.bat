@@ -1,0 +1,1 @@
+@_RebuildDataBase.bat localhost ix_dev

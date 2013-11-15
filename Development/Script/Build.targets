@@ -1,0 +1,28 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ScriptRootPath>$(MSBuildProjectDirectory)</ScriptRootPath>
+    <ProjectRootPath>$(ScriptRootPath)\..</ProjectRootPath>
+    <OutputRootPath>$(ProjectRootPath)\_output</OutputRootPath>
+    <CodeRootPath>$(ProjectRootPath)\Code</CodeRootPath>
+    <UtilityScriptRootPath>$(ProjectRootPath)\External\Utility\Development\Script</UtilityScriptRootPath>
+  </PropertyGroup>
+  <Import Project="$(UtilityScriptRootPath)\Utility.targets" />
+  <PropertyGroup>
+    <DBRootPath>$(ProjectRootPath)\Database</DBRootPath>
+    <DBScriptRootPath>$(DBRootPath)\DBScript</DBScriptRootPath>
+    <CreationDBScriptPath>$(DBScriptRootPath)\Create</CreationDBScriptPath>
+    <FundamentalDBScriptPath>$(CreationDBScriptPath)\100_FundamentalStructure\100_Generated</FundamentalDBScriptPath>
+    <FundamentalTablesDBScriptPath>$(FundamentalDBScriptPath)\100_Table</FundamentalTablesDBScriptPath>
+    <FundamentalIndexesDBScriptPath>$(FundamentalDBScriptPath)\200_Index</FundamentalIndexesDBScriptPath>
+    <FundamentalForeignKeysDBScriptPath>$(FundamentalDBScriptPath)\300_ForeignKey</FundamentalForeignKeysDBScriptPath>
+    <SQLCMDFile>SQLCMD.exe</SQLCMDFile>
+    <DBRunnerTempPath>$(OutputRootPath)\script</DBRunnerTempPath>
+  </PropertyGroup>
+
+  <Target Name="RetrieveDBSchema" DependsOnTargets="BuildMSSQLRetriever">
+    <Exec Command="$(MSSQLRetrieverExec) /server: $(SourceDbServer) /user:$(DBUser) /pswd:$(DBPassword) /database: $(SourceDatabase) /table: $(FundamentalTablesDBScriptPath) /index: $(FundamentalIndexesDBScriptPath) /fk: $(FundamentalForeignKeysDBScriptPath)" />
+  </Target>
+  <Target Name="RebuildDataBase" DependsOnTargets="BuildMSSQLRunner">
+    <Exec Command="$(MSSQLRunnerExec) /utility:$(SQLCMDFile) /temp:$(DBRunnerTempPath) /server:$(TargetDbServer) /db:$(TargetDatabase) /script:$(CreationDBScriptPath) /user:$(DBUser) /pswd:$(DBPassword) /incl:$(ScriptInclusions) /excl:$(ScriptExclusions) /params:$(Parameters)" />
+  </Target>
+</Project>

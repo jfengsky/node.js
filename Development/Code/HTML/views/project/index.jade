@@ -1,0 +1,22 @@
+//- Created by Terry(terry.jiang@bertelsmann.com.cn) on 13-10-29.
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/project/mods/global/reset.css')
+    link(rel='stylesheet', href='/docs/css/style.css')
+  body
+    .proj
+      h1 {{title}}
+      p {{desc}}
+
+
+    script(src='/libs/seajs/sea.js')
+    script
+      seajs.config({
+        base: "/",
+        alias: {
+          "jquery": "/libs/jquery/jquery.js"
+        }
+      });
+      seajs.use("/mods/main");

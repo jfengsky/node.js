@@ -1,0 +1,1 @@
+@__runBuild.bat RebuildDataBase "/property:TargetDbServer=%~1;TargetDatabase=%~2;ScriptExclusions=%~3;Parameters=%4"

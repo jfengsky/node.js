@@ -1,0 +1,1 @@
+@__runBuild.bat RetrieveDBSchema "/property:SourceDbServer=10.4.62.169;SourceDatabase=ix_design;DBUser=ix;DBPassword=IX.crm"

@@ -8,9 +8,7 @@
   "dependencies": {
     "express": "3.4.3",
     "jade": "*",
-    "cheerio": "*",
-    "cheerio": "*",
-    "supervisor": "*",
+    "markdown-js": "*",
     "grunt": "*",
     "grunt-contrib-compass": "*",
     "grunt-contrib-cssmin": "*",
