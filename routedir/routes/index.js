@@ -2,34 +2,28 @@
 /*
  * GET home page.
  */
-var fs = require('fs');
-var walk = function(dir, done) {
-  var results = [];
-  fs.readdir(dir, function(err, list) {
-    if (err) return done(err);
-    var i = 0;
-    (function next() {
-      var file = list[i++];
-      if (!file) return done(null, results);
-      file = dir + '/' + file;
-      fs.stat(file, function(err, stat) {
-        if (stat && stat.isDirectory()) {
-          walk(file, function(err, res) {
-            results = results.concat(res);
-            next();
-          });
-        } else {
-          results.push(file);
-          next();
-        }
-      });
-    })();
-  });
-};
+var readdirp = require('readdirp');
+
 module.exports = function(app){
-  console.log(fs.readdirSync('./views'));
-  var ignore = ['_inc'];
-  app.get('/', function(req, res){
-    res.render('index', { title: 'index'});
+  
+  readdirp({ 
+    root: './views', 
+    directoryFilter: ['!*_inc'], 
+    fileFilter: [ '*.jade' ]
+  }).on('data', function (entry) {
+    // console.log(entry.name);
+    console.log(entry.path)
+    var url = entry.path.slice(0, -5);
+    
+    app.get('/' + url + '.html', function(req, res){
+      res.render('index', { title: 'index'});
+    });
+
   });
+
+
+  // app.get('/', function(req, res){
+  //   res.render('index', { title: 'index'});
+  // });
+
 };
