@@ -5,13 +5,13 @@
 var readdirp = require('readdirp');
 
 module.exports = function(app){
-  
+
   readdirp({ 
     root: './views', 
     directoryFilter: ['!*_inc'], 
     fileFilter: [ '*.jade' ]
   }).on('data', function (entry) {
-    // console.log(entry.name);
+
     console.log(entry.path)
     var url = entry.path.slice(0, -5);
     
@@ -21,9 +21,5 @@ module.exports = function(app){
 
   });
 
-
-  // app.get('/', function(req, res){
-  //   res.render('index', { title: 'index'});
-  // });
 
 };
