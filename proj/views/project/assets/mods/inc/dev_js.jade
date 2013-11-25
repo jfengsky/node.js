@@ -1,0 +1,15 @@
+//- {Array} devArr        [测试脚本地址数组]
+//- {Array} mainArr       [build脚本地址数组]
+//- {boolean} bool        [环境判断，true:开发环境, false:生产环境]
+
+mixin routejs(devArr, mainArr, bool)
+  if bool
+    each val1 in devArr
+      script(src='assets/libs/#{val1}.js')
+    script
+      seajs.use('assets/../../mods/#{mainArr[0]}');
+  else
+    each val1 in devArr
+        script(src='assets/libs/#{val1}.min.js')
+    script
+      seajs.use('assets/../../mods/#{mainArr[0]}');

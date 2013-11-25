@@ -1,0 +1,37 @@
+doctype 5
+html
+  head
+    meta(charset='utf-8')
+    title= 'demo多语言测试'
+
+    //- css include
+    include ../assets/mods/dev_css
+    - var develop_css = ['reset', 'test/test']  //- array 原来css
+    - var min_css = ['combo']   //- array 合并压缩后的css
+    - var dev_ment = dev  //- boolean 环境参数
+    mixin routeCss(develop_css ,min_css, dev_ment)
+  body
+    //- select#J_langchange
+      option(value="zhcn") 中文
+      option(value="english") English
+    #test(ng-controller='langControl')
+      .header
+        h1 {{header.title}}
+        p {{header.desc}}
+      .main
+        h3 {{main.title}}
+        p {{main.desc}}
+    hr
+    input(type='text', id='J_dbname', value='ix')
+    input(type='button', id='J_delbtn', value='deledDB')
+    hr
+    input(type='button', id="J_delcookie", value="clearCookie")
+    hr
+    a(href="/lang_page2") nextpage2
+
+    //- js include
+    include ../assets/mods/dev_js
+    - var dev_js = ['seajs/sea','jquery/jquery-1.10.2', 'angular/angular','indexeddb/jquery.indexeddb']
+    - var main_js = ['language/test', 'language/test']
+    mixin routejs(dev_js, main_js, dev_ment)
+

@@ -1,0 +1,7 @@
+mixin routeCss(arr1, arr2, bool)
+  if bool
+    each val1 in arr1
+      link(rel='stylesheet', href='assets/mods/#{val1}.css')
+  else
+    each val2 in arr2
+      link(rel='stylesheet', href='../assets/res/#{val2}.min.css')

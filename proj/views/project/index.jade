@@ -1,0 +1,40 @@
+//- {String} 页面标题
+- var pagetitle = "商业洞察-销售额"
+
+//- {Array} 开发未合并压缩css
+- var develop_css = ['reset', 'nav/nav', 'path/path']
+
+//- {Array} 合并压缩后的css
+- var min_css = ['combo']
+
+//- {Boolean} 环境参数
+- var dev_ment = dev
+
+//- 公共页头
+include assets/mods/inc/header
+  //- css
+  include assets/mods/inc/dev_css
+  mixin routeCss(develop_css ,min_css, dev_ment)
+  body
+    //- 公共主导航
+    include assets/mods/nav/nav
+
+    //- 面包屑
+    include assets/mods/path/path
+
+
+
+
+
+
+    //- 页脚
+    include assets/mods/inc/dev_js
+    //- {Array} 公共插件库
+    //- TODO 压缩后的插件库
+    - var dev_js = ['seajs/sea','jquery/jquery-1.10.2', 'angular/angular','indexeddb/jquery.indexeddb']
+
+    //- 页面未压缩合并脚本文件
+    //- TODO 合并压缩脚本文件
+    - var main_js = ['src/main']
+    mixin routejs(dev_js, main_js, dev_ment)
+

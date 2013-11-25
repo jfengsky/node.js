@@ -1,0 +1,35 @@
+doctype 5
+html
+  head
+    meta(charset='utf-8')
+    title IX首页
+    //- 页面标题
+    //- var title = 'IX首页'
+    //- 公共页头
+    
+
+    //- 配置样式
+    include assets/mods/inc/dev_css
+    - var develop_css = ['reset', 'test/test']  //- array 原来css
+    - var min_css = []   //- array 合并压缩后的css
+    - var dev_ment = dev  //- boolean 环境参数
+    mixin routeCss(develop_css ,min_css, dev_ment)
+
+  body
+    //-select#J_langChange
+      option(value="zhcn") 中文
+      option(value="english") english
+    #test(ng-controller='langControl')
+      #header {{header.title}}  {{header.desc}}
+
+      #main {{main.title}} {{main.desc}}
+
+      #footer {{footer.title}} {{footer.desc}}
+    hr
+    input#J_key(type="text", value="ix") 
+    input#J_btn(type="button" value="delete key")
+    //- 配置脚本
+    include assets/mods/inc/dev_js
+    - var dev_js = ['seajs/sea','jquery/jquery-1.10.2', 'angular/angular','indexeddb/jquery.indexeddb']
+    - var main_js = ['src/main', 'language/test']
+    mixin routejs(dev_js, main_js, dev_ment)
