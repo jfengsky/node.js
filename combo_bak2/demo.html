@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<div id="J_text">
+  abc
+</div>
+<input type="button" id="J_btn" value="click me">
+
+<script src="assets/libs/seajs/sea.js"></script>
+<script>
+seajs.config({
+  base: "./assets"
+  // alias: {
+  //   "jquery": "libs/jquery/jquery.js"
+  // }
+});
+seajs.use("mods/main");
+</script>
+</body>
+</html>

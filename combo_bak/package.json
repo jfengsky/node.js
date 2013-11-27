@@ -1,0 +1,12 @@
+{
+     "name" : "HelloSeaJS",
+     "version" : "1.0.0",
+     "author" : "Qifeng Liu",
+     "devDependencies" : {
+          "grunt" : "*",
+          "grunt-cmd-transport" : "*",
+          "grunt-cmd-concat" : "*",
+          "grunt-contrib-uglify" : "*",
+          "grunt-contrib-clean" : "*"
+     }
+}
