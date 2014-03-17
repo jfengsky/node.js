@@ -27,7 +27,6 @@ module.exports = function(app){
     });
   };
 
-  console.log(app.route);
 
   /**
    * rotate path function
