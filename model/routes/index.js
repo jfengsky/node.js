@@ -45,8 +45,7 @@ module.exports = function(app){
 //  });
 
   app.get('/getfileinfo', function(req, res){
-    var path = req.query.path;
-    walk(path, function(err, results) {
+    walk('./', function(err, results) {
       if (err) throw err;
       res.send(results);
     });
