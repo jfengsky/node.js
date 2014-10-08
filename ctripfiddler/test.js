@@ -4,7 +4,7 @@ var http = require('http'),
 // Create your proxy server and set the target in the options.
 //
 httpProxy.createProxyServer({
-  target:'http://localhost'
+  target:'http://localhost/demos/index.htm'
 }).listen(8000);
 
 //
