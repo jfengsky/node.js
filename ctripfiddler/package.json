@@ -1,0 +1,8 @@
+{
+     "name" : "ctripfiddler",
+     "version" : "0.0.1",
+     "author" : "jiang.f",
+     "devDependencies" : {
+          "http-proxy" : "*"
+     }
+}
