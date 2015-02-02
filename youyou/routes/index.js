@@ -38,7 +38,7 @@ var backData = {
       "Q": "费用包含3",
       "K": "addinfodetail,102,324"
     }],
-    "TK": ["第一天", "景点"]
+    "TK": ["第一天", "景点", "杭州"]
   },
   "errno": 0,
   "errmsg": ""
@@ -46,12 +46,15 @@ var backData = {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', {
+    title: 'Express'
+  });
 });
 router.get('/search', function(req, res, next) {
   var getQuery = req.query,
-      callBackName = getQuery.callback;
-  backData.data.SQ = req.query.param.SQ;
+    callBackName = getQuery.callback,
+    tempParam = JSON.parse(req.query.param);
+  backData.data.SQ = tempParam.SQ;
   res.jsonp(backData);
   // res.send(callBackName + '(' + JSON.stringify(backData) +')');
 });
