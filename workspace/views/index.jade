@@ -1,8 +1,16 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  header.title vacation
   input(type="button" value="click" id="J_test")
-  #output
+  #filelist 11111
+  #control
+    #controlTab(role="tabpanel")
+      ul.nav.nav-tabs.nav-justified(role="tablist")
+        li.active(role="presentation") 111
+        li(role="presentation") 222
+      .tab-content
+        .tab-pane.active(role="tabpanel") 1111
+        .tab-pane(role="tabpanel") 2222
+  #cmdoutput
   script(src="/js/event.js")
