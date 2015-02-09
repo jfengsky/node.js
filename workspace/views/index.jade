@@ -2,7 +2,7 @@ extends layout
 
 block content
   header.title vacation
-  input(type="button" value="click" id="J_test")
+  input.btn.btn-primary(type="button" value="click" id="J_test")
   #filelist 11111
   #control
     #controlTab(role="tabpanel")
@@ -13,4 +13,7 @@ block content
         .tab-pane.active(role="tabpanel") 1111
         .tab-pane(role="tabpanel") 2222
   #cmdoutput
+    #output
+    .control
+      input.btn.btn-primary(type="button" value="clear" id="J_clearcmd")
   script(src="/js/event.js")

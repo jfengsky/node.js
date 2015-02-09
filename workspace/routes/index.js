@@ -3,9 +3,20 @@ var router = express.Router();
 
 var exec = require('child_process').exec;
 
+var folderList = require('./folderlist');
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
+});
+
+router.post('/filelist', function(req, res, next) {
+  folderList.init({
+    params: req.body,
+    callback: function( _data ){
+      res.send(_data);
+    }
+  });
 });
 
 router.post('/cmd', function(req, res) {
