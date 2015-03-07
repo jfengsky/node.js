@@ -1,5 +1,13 @@
 var imgIndex = 1;
 
+function render(_id, _data){
+  var tpl = '';
+  $.map(_data.data, function(_item){
+    tpl += '<span class="img"><img src="' + _item.ImageUrl + '" /></span>'
+  })
+  $(_id).append(tpl);
+}
+
 $('#J_updata').bind('change', function(ev) {
   var formData = new window.FormData(),
     filelist = ev.target.files;
@@ -17,8 +25,7 @@ $('#J_updata').bind('change', function(ev) {
     contentType: false,
     processData: false,
     success: function(_data) {
-
-      console.log(tempData);
+      render('#J_h5showblock', _data);
     },
     error: function() {
       console.log(tempData);
@@ -45,8 +52,39 @@ var setting = {
   debug: true,
   button_width: 200,
   button_height: 40,
-  button_placeholder_id: 'J_swfbutton'
-  // button_window_mode: "transparent",
+  button_placeholder_id: 'J_swfbutton',
+  button_window_mode: "transparent",
+  file_queued_handler: function(file) {
+    console.log('file_queued_handler');
+    console.log(file);
+  },
+  file_dialog_complete_handler: function(_selectNumber, _queueNumber) {
+    console.log('file_dialog_complete_handler');
+    console.log(_selectNumber);
+    console.log(_queueNumber);
+    this.startUpload();
+  },
+  upload_start_handler: function(_file) {
+    this.setPostParams({
+      'TempID': 1
+    });
+    console.log('upload_start_handler');
+  },
+  upload_progress_handler: function(_file, _hasup, _total) {
+    console.log('upload_progress_handler');
+    console.log(_hasup);
+    console.log(_total);
+  },
+  upload_success_handler: function(_file, _data) {
+    console.log('upload_success_handler');
+    console.log(_file);
+    console.log(_data);
+    render('#J_swfshowblock', $.parseJSON(_data))
+  },
+  upload_complete_handler: function(_file) {
+    console.log(_file);
+    this.startUpload();
+  }
 }
 
 

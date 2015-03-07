@@ -40,14 +40,25 @@ app.use('/uploadImage', function(req, res, next) {
             "data": []
         },
         tempData = {};
-
-    for (var i = 0; i < files.length; i++) {
+    console.log(req);
+    if (Object.prototype.toString.call(files) === '[object Array]') {
+        for (var i = 0; i < files.length; i++) {
+            tempData = {
+                "success": true,
+                "ErrorMessage": null,
+                "TempID": req.body.TempID[i],
+                "ImageUrl": "http://localhost/github/node.js/upload/temp/" + files[i].name,
+                "ImageId": 1000 + i
+            }
+            resData["data"].push(tempData)
+        }
+    } else {
         tempData = {
             "success": true,
             "ErrorMessage": null,
-            "TempID": req.body.TempID[i],
-            "ImageUrl": "http://localhost/github/node.js/upload/temp/" + files[i].name,
-            "ImageId": 1000 + i
+            "TempID": req.body.TempID,
+            "ImageUrl": "http://localhost/github/node.js/upload/temp/" + files.name,
+            "ImageId": 1000
         }
         resData["data"].push(tempData)
     }

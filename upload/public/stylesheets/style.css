@@ -17,3 +17,26 @@ a {
   display: block;
   margin-bottom: 5px;
 }
+
+#J_h5showblock, #J_swfshowblock{
+  border: 1px solid #ccc;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.swfbutton{
+  background: #f60;
+  width: 200px;
+  height: 40px;
+}
+
+.img{
+  height: 100px;
+  width: 100px;
+}
+
+.img img{
+  height: 100px;
+  width: 100px;
+}
