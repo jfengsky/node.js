@@ -35,9 +35,26 @@ app.use(multer({
 app.use('/uploadImage', function(req, res, next) {
     console.log(req.body);
     console.log(req.files);
-    res.send({
-        'success': true
-    });
+
+    var files = req.files.Filedata,
+        resData = {
+            "errno": 0,
+            "errmsg": "Success",
+            "data": []
+        },
+        tempData = {};
+
+    for (var i = 0; i < files.length; i++) {
+        tempData = {
+            "success": true,
+            "ErrorMessage": null,
+            "TempID": req.body.TempID[i],
+            "ImageUrl": "http://localhost/github/node.js/upload/temp/" + files[i].name,
+            "ImageId": 1000 + i
+        }
+        resData["data"].push(tempData)
+    }
+    res.send(resData);
 });
 
 // catch 404 and forward to error handler
