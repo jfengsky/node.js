@@ -33,9 +33,6 @@ app.use(multer({
 }))
 
 app.use('/uploadImage', function(req, res, next) {
-    console.log(req.body);
-    console.log(req.files);
-
     var files = req.files.Filedata,
         resData = {
             "errno": 0,

@@ -4,8 +4,12 @@ block content
   h1= title
   p Welcome to #{title}
 
-  input#J_updata(type="file", multiple)
+  .block
+    label h5上传
+    input#J_updata(type="file", multiple)
 
-
+  .block
+    label flash上传
+    #J_swfbutton
 
   script(src='/javascripts/script.js')
