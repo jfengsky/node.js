@@ -1,3 +1,5 @@
+// 参考 http://www.cnblogs.com/kenshincui/archive/2011/11/30/2269782.html
+
 var imgIndex = 1;
 
 function render(_id, _data){
@@ -101,6 +103,10 @@ var setting = {
     console.log('upload_progress_handler');
     console.log(_hasup);
     console.log(_total);
+
+    var percent = Math.ceil( (_hasup/ _file.size) * 100 );
+    console.log(percent + '%');
+
   },
   upload_success_handler: function(_file, _data) {
     // 当文件上传的处理已经完成（这里的完成只是指向目标处理程序发送了Files信息，只管发，不管是否成功接收），并且服务端返回了200的HTTP状态时，触发此事件。
