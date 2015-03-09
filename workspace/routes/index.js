@@ -601,6 +601,154 @@ var TravelCompanions6 = {
         }]
     }]
 };
+var PreviousUSTravel7 = {
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "第七页 以前美国之行",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_previousustravel.aspx?node=PreviousUSTravel",
+    "Values": [{
+      "ColumnName": "您是否曾经在美国停留过？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_TRAVEL_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "以往赴美1抵达日期-日",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_DTEDay",
+      "Value": "1"
+    }, {
+      "ColumnName": "以往赴美1抵达日期-月",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_DTEMonth",
+      "Value": "1"
+    }, {
+      "ColumnName": "以往赴美1抵达日期-年",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_tbxPREV_US_VISIT_DTEYear",
+      "Value": "2010"
+    }, {
+      "ColumnName": "以往赴美1停留时间单位",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_LOS_CD",
+      "Value": "M"
+    }, {
+      "ColumnName": "以往赴美1时长",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_tbxPREV_US_VISIT_LOS",
+      "Value": "1"
+    }, {
+      "ColumnName": "以往赴美2抵达日期-日",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_DTEDay",
+      "Value": "1"
+    }, {
+      "ColumnName": "以往赴美2抵达日期-月",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_DTEMonth",
+      "Value": "1"
+    }, {
+      "ColumnName": "以往赴美2抵达日期-年",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_tbxPREV_US_VISIT_DTEYear",
+      "Value": "2009"
+    }, {
+      "ColumnName": "以往赴美2停留时间单位",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_LOS_CD",
+      "Value": "M"
+    }, {
+      "ColumnName": "以往赴美2时长",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_tbxPREV_US_VISIT_LOS",
+      "Value": "2"
+    }, {
+      "ColumnName": "您是否持有或者曾经持有美国驾照？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_IND_0",
+      "Value": "True"
+    },{
+      "ColumnName": "您是否持有或者曾经持有美国驾驶执照？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_DRIVER_LIC_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "驾驶执照的号码",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_tbxUS_DRIVER_LICENSE",
+      "Value": "234523452345"
+    }, {
+      "ColumnName": "不知道驾驶执照的号码",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_cbxUS_DRIVER_LICENSE_NA",
+      "Value": "False"
+    }, {
+      "ColumnName": "驾驶执照的州",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_ddlUS_DRIVER_LICENSE_STATE",
+      "Value": "CO"
+    }, {
+      "ColumnName": "上一次获得美国签证的日期-日",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlPREV_VISA_ISSUED_DTEDay",
+      "Value": "1"
+    }, {
+      "ColumnName": "上一次获得美国签证的日期-月",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlPREV_VISA_ISSUED_DTEMonth",
+      "Value": "2"
+    }, {
+      "ColumnName": "上一次获得美国签证的日期-年",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_ISSUED_DTEYear",
+      "Value": "2008"
+    }, {
+      "ColumnName": "签证号码",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_FOIL_NUMBER",
+      "Value": "9998877676655"
+    }, {
+      "ColumnName": "签证号码（未知）",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxPREV_VISA_FOIL_NUMBER_NA",
+      "Value": "False"
+    }, {
+      "ColumnName": "您此次是否申请同类签证",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_SAME_TYPE_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您现在申请签证的所在国家或地点同于您上个签证颁发所在国或地点吗? 此国家或地点是您主要居住地吗?",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_SAME_CNTRY_IND_1",
+      "Value": "False"
+    }, {
+      "ColumnName": "您是否留取过十指指纹？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_TEN_PRINT_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您的美国签证是否曾经遗失或者被盗？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_LOST_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "输入您签证遗失或被盗窃的年份",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_LOST_YEAR",
+      "Value": "2009"
+    }, {
+      "ColumnName": "签证遗失解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_LOST_EXPL",
+      "Value": "asdfasdf"
+    }, {
+      "ColumnName": "您的美国签证是否曾经被注销或撤销过？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_CANCELLED_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "注销或撤销解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_CANCELLED_EXPL",
+      "Value": "no"
+    }, {
+      "ColumnName": "您被拒签过吗？ 或在入境口岸被拒入境，或被撤销入境申请？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_REFUSED_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "拒签或撤销入境的解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_REFUSED_EXPL",
+      "Value": "sdfasdfa"
+    }, {
+      "ColumnName": "您是， 或者曾经是美国合法永久居民吗？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPERM_RESIDENT_IND_1",
+      "Value": "False"
+    }, {
+      "ColumnName": "您是， 或者曾经是美国合法永久居民吗解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPERM_RESIDENT_EXPL",
+      "Value": "no"
+    }, {
+      "ColumnName": "曾有人在公民及移民服务局为您申请过移民吗？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblIV_PETITION_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "曾有人在公民及移民服务局为您申请过移民吗解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxIV_PETITION_EXPL",
+      "Value": "noooo"
+    }]
+  }]
+};
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
