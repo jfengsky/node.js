@@ -1086,8 +1086,8 @@ var WorkEducation11 = {
     "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_workeducation2.aspx?node=WorkEducation2",
     "Values": [{
       "ColumnName": "您之前有工作吗？",
-      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPreviouslyEmployed_0",
-      "Value": "True"
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPreviouslyEmployed_1",
+      "Value": "False"
     }, {
       "ColumnName": "以往单位1名称[英文]",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPrevEmpl_ctl00_tbEmployerName",
@@ -1123,7 +1123,7 @@ var WorkEducation11 = {
     }, {
       "ColumnName": "以往单位1国家/地区[英文]",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPrevEmpl_ctl00_DropDownList2",
-      "Value": "Zhongguo"
+      "Value": "CHIN"
     }, {
       "ColumnName": "以往单位1电话号码",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPrevEmpl_ctl00_tbEmployerPhone",
@@ -1266,8 +1266,8 @@ var WorkEducation11 = {
       "Value": "May be appropriate to forget I and I uiosdjfoisj the amount of Ascoli Jiefang Road"
     }, {
       "ColumnName": "您是否在任何相当于中学水平或以上的教育机构里学习过？",
-      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherEduc_0",
-      "Value": "True"
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherEduc_1",
+      "Value": "False"
     }, {
       "ColumnName": "以往教育机构1名称[英文]",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPrevEduc_ctl00_tbxSchoolName",
@@ -1303,7 +1303,7 @@ var WorkEducation11 = {
     }, {
       "ColumnName": "以往教育机构1国家/地区[英文]",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPrevEduc_ctl00_ddlSchoolCountry",
-      "Value": "hangzhou"
+      "Value": "CHIN"
     }, {
       "ColumnName": "以往教育机构1课程[英文]",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPrevEduc_ctl00_tbxSchoolCourseOfStudy",
@@ -1323,7 +1323,7 @@ var WorkEducation11 = {
     }, {
       "ColumnName": "以往教育机构1就读结束日期-日",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPrevEduc_ctl00_ddlSchoolToDay",
-      "Value": ""
+      "Value": "3"
     }, {
       "ColumnName": "以往教育机构1就读结束日期-月",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPrevEduc_ctl00_ddlSchoolToMonth",
@@ -1467,7 +1467,351 @@ var WorkEducation11 = {
     }]
   }]
 };
+var WorkEducation12 = {
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "其他工作/教育/培训",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_workeducation3.aspx?node=WorkEducation3",
+    "Values": [{
+      "ColumnName": "您是否属于一个宗族或者部落？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblCLAN_TRIBE_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "宗族或者部落名称[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxCLAN_TRIBE_NAME",
+      "Value": "The tribe"
+    }, {
+      "ColumnName": "语言名字[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlLANGUAGES_ctl00_tbxLANGUAGE_NAME",
+      "Value": "Chinese"
+    }, {
+      "ColumnName": "最近五年里您是否去过其他国家？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblCOUNTRIES_VISITED_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "请列出您访问过的国家[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlCountriesVisited_ctl00_ddlCOUNTRIES_VISITED",
+      "Value": "ASMO"
+    }, {
+      "ColumnName": "您是否从属于任何一个专业的、社会或慈善组织？并为其做过贡献、或为其工作过？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblORGANIZATION_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "机构名称[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlORGANIZATIONS_ctl00_tbxORGANIZATION_NAME",
+      "Value": "As break iweurakdjf"
+    }, {
+      "ColumnName": "您是否具有特殊技能或接受过特殊培训，例如有关枪械、炸药、 核装置、 生物或化学方面的经验？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblSPECIALIZED_SKILLS_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否具有特殊技能或接受过特殊培训，例如有关枪械、炸药、 核装置、 生物或化学方面的经验？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblSPECIALIZED_SKILLS_IND_1",
+      "Value": "Ascoli inspired thinking it"
+    }, {
+      "ColumnName": "您是否具有特殊技能或接受过特殊培训，例如有关枪械、炸药、 核装置、 生物或化学方面的经验？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxSPECIALIZED_SKILLS_EXPL",
+      "Value": "Ascoli inspired thinking it"
+    }, {
+      "ColumnName": "您是否曾经在军队服役？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblMILITARY_SERVICE_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "服役国家/地区名称[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_ddlMILITARY_SVC_CNTRY",
+      "Value": "CHIN"
+    }, {
+      "ColumnName": "服役军种[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_tbxMILITARY_SVC_BRANCH",
+      "Value": "Services"
+    }, {
+      "ColumnName": "服役级别/职位[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_tbxMILITARY_SVC_RANK",
+      "Value": "Admiral"
+    }, {
+      "ColumnName": "服役军事特长[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_tbxMILITARY_SVC_SPECIALTY",
+      "Value": "Military expertise"
+    }, {
+      "ColumnName": "服役开始日期-日",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_ddlMILITARY_SVC_FROMDay",
+      "Value": "1"
+    }, {
+      "ColumnName": "服役开始日期-月",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_ddlMILITARY_SVC_FROMMonth",
+      "Value": "1"
+    }, {
+      "ColumnName": "服役开始日期-年",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_tbxMILITARY_SVC_FROMYear",
+      "Value": "1999"
+    }, {
+      "ColumnName": "服役结束日期-日",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_ddlMILITARY_SVC_TODay",
+      "Value": "1"
+    }, {
+      "ColumnName": "服役结束日期-月",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_ddlMILITARY_SVC_TOMonth",
+      "Value": "1"
+    }, {
+      "ColumnName": "服役结束日期-年",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlMILITARY_SERVICE_ctl00_tbxMILITARY_SVC_TOYear",
+      "Value": "1999"
+    }, {
+      "ColumnName": "你是否曾经服务于或参与过准军事性单位、治安团体、造反组织、游击队或暴动组织，或曾经是其成员之一？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblINSURGENT_ORG_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "你是否曾经服务于或参与过准军事性单位、治安团体、造反组织、游击队或暴动组织，或曾经是其成员之一？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxINSURGENT_ORG_EXPL",
+      "Value": "Oh love no hungry Oh is flak in the three quarter began the micrometer center immediately Alonso Kendl Ki"
+    }]
+  }]
+};
 
+var SecurityandBackground1 = {
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "安全和背景 PART1",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_securityandbackground1.aspx?node=SecurityandBackground1",
+    "Values": [{
+      "ColumnName": "您是否患有涉及公共卫生的传染病？（按照美国卫生和公众服务部界定，涉及公共卫生的传染病包括软下疳、淋病、腹股沟肉芽肿、传染性麻风病、性病性淋巴肉芽肿，传染期梅毒，活动性肺结核等。）",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblDisease_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否患有涉及公共卫生的传染病？（按照美国卫生和公众服务部界定，涉及公共卫生的传染病包括软下疳、淋病、腹股沟肉芽肿、传染性麻风病、性病性淋巴肉芽肿，传染期梅毒，活动性肺结核等。）说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxDisease",
+      "Value": "If you have related to public health infectious disease"
+    }, {
+      "ColumnName": "您是否患有对其他人的人身安全及利益造成威胁的精神或身体疾病？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblDisorder_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否患有对其他人的人身安全及利益造成威胁的精神或身体疾病？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxDisorder",
+      "Value": "Do you have a safety and interests of other people who pose a threat of mental or physical disease"
+    }, {
+      "ColumnName": "您是否或曾经滥用药物并上瘾？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblDruguser_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否或曾经滥用药物并上瘾？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxDruguser",
+      "Value": "If you are or have substance abuse and addiction"
+    }]
+  }]
+};
+
+var SecurityandBackground2 = {
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "安全和背景PART2",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_securityandbackground2.aspx?node=SecurityandBackground2",
+    "Values": [{
+      "ColumnName": "您是否曾经因违法或犯罪被捕或被判刑，即使后来您受到了宽恕、赦免或其它类似的裁决？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblArrested_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾经因违法或犯罪被捕或被判刑，即使后来您受到了宽恕、赦免或其它类似的裁决？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxArrested",
+      "Value": "Have you ever due to illegal or criminal arrested or convicted, even if later you have forgiveness, forgiveness or other similar action? English explanation []"
+    }, {
+      "ColumnName": "您是否曾经违反或密谋违反有关管控物资方面的法律？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblControlledSubstances_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾经违反或密谋违反有关管控物资方面的法律？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxControlledSubstances",
+      "Value": "Have you ever violate or plotting in violation of the relevant control material aspects of the law"
+    }, {
+      "ColumnName": "您是来美国从事卖淫或非法商业性交易吗？在过去十年中，您是否从事过卖淫或组织介绍过卖淫？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblProstitution_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是来美国从事卖淫或非法商业性交易吗？在过去十年中，您是否从事过卖淫或组织介绍过卖淫？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxProstitution",
+      "Value": "Are you engaged in prostitution or illegal business transactions USA? In the past ten years, whether or not you engaged in prostitution or presents organized prostitution"
+    }, {
+      "ColumnName": "您是否曾经参与或意图从事洗钱活动？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblMoneyLaundering_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾经参与或意图从事洗钱活动？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxMoneyLaundering",
+      "Value": "Have you ever participated in or intent to engage in money laundering activities"
+    }, {
+      "ColumnName": "您曾在美国或美国以外的地方犯有或密谋人口走私罪吗？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblHumanTrafficking_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您曾在美国或美国以外的地方犯有或密谋人口走私罪吗？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxHumanTrafficking",
+      "Value": "You have committed the crime of smuggling or plotting population American or USA outside it"
+    }, {
+      "ColumnName": "你有没有故意资助，教唆，协助或勾结某个人，而这个人在美国或美国以外的地方曾犯有、或密谋了一严重的人口走私案？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblAssistedSevereTrafficking_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "你有没有故意资助，教唆，协助或勾结某个人，而这个人在美国或美国以外的地方曾犯有、或密谋了一严重的人口走私案？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAssistedSevereTrafficking",
+      "Value": "Did you deliberately abetting, assisting or funding, collusion with someone, and this person has been guilty of, in America or American outside or plotting a severe population smuggling case"
+    }, {
+      "ColumnName": "您是一曾在美国或美国以外犯有或密谋人口走私案犯的配偶或儿女吗？您在最近5年里是否从走私活动中获得过好处？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblHumanTraffickingRelated_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是一曾在美国或美国以外犯有或密谋人口走私案犯的配偶或儿女吗？您在最近5年里是否从走私活动中获得过好处？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxHumanTraffickingRelated",
+      "Value": "You are a once in America or America outside or people smuggling criminal guilty of plotting a spouse or children? Whether you are in the last 5 years from smuggling activities benefited"
+    }]
+  }]
+};
+
+var SecurityandBackground3 = {
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "安全和背景 PART3",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_securityandbackground3.aspx?node=SecurityandBackground3",
+    "Values": [{
+      "ColumnName": "在美国期间，您是否意图从事间谍活动、阴谋破坏、违反出口管制条例或其他任何非法活动？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblIllegalActivity_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "在美国期间，您是否意图从事间谍活动、阴谋破坏、违反出口管制条例或其他任何非法活动？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxIllegalActivity",
+      "Value": "In American period, do you seek to engage in espionage, sabotage, export control violations or any other illegal activity"
+    }, {
+      "ColumnName": "在美国期间，您是否意图从事恐怖活动？或您是否曾经从事过恐怖活动？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblTerroristActivity_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "在美国期间，您是否意图从事恐怖活动？或您是否曾经从事过恐怖活动？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxTerroristActivity",
+      "Value": "In American period, do you seek to engage in terrorist activities? Or have you ever engaged in terrorist activities"
+    }, {
+      "ColumnName": "您是否曾经或计划为恐怖分子或恐怖组织提供经济或其它方面的支持？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblTerroristSupport_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾经或计划为恐怖分子或恐怖组织提供经济或其它方面的支持？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxTerroristSupport",
+      "Value": "Whether you have or plan to provide economic or other support to terrorists or terrorist organizations"
+    }, {
+      "ColumnName": "您是否是一恐怖组织的成员或代表？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblTerroristOrg_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否是一恐怖组织的成员或代表？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxTerroristOrg",
+      "Value": "Whether you are a member or representative of a terrorist organization."
+    }, {
+      "ColumnName": "您是否曾经指使、煽动、从事、协助或参与了过种族灭绝大屠杀？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblGenocide_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾经指使、煽动、从事、协助或参与了过种族灭绝大屠杀？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxGenocide",
+      "Value": "Have you ever ordered, incited, engaged in, assist or participated in over genocide"
+    }, {
+      "ColumnName": "您是否曾经从事、指使、煽动、协助或以其他方式参与了刑讯？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblTorture_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾经从事、指使、煽动、协助或以其他方式参与了刑讯？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxTorture",
+      "Value": "Have you ever engaged in, ordered, incited, assist or otherwise participated in torture"
+    }, {
+      "ColumnName": "您是否曾经从事、指使、煽动、协助或参与了法庭外的杀戮、政治谋杀或者其他暴力行为？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblExViolence_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾经从事、指使、煽动、协助或参与了法庭外的杀戮、政治谋杀或者其他暴力行为？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxExViolence",
+      "Value": "Have you ever engaged in, incite, instigate, help or participate in the killings, political killings out of court or other acts of violence"
+    }, {
+      "ColumnName": "你曾经从事过招募士兵或利用儿童士兵吗？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblChildSoldier_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "你曾经从事过招募士兵或利用儿童士兵吗？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxChildSoldier",
+      "Value": "You have engaged in the recruitment of soldiers or the use of child soldiers do"
+    }, {
+      "ColumnName": "在担任政府官员期间，您是否曾经负责或直接执行过严重违反宗教自由的行动？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblReligiousFreedom_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "在担任政府官员期间，您是否曾经负责或直接执行过严重违反宗教自由的行动？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxReligiousFreedom",
+      "Value": "While serving as a government official, whether or not you been responsible for or directly carried out severe violations of religious freedom"
+    }, {
+      "ColumnName": "您曾经直接参与过制定或执行人口控制的规定,强迫妇女或男士违愿进行人流或绝育吗?",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPopulationControls_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您曾经直接参与过制定或执行人口控制的规定,强迫妇女或男士违愿进行人流或绝育吗?说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPopulationControls",
+      "Value": "You have directly participated in the formulation or implementation of provisions of population control, forcing women or men wish abortion or sterilization:"
+    }, {
+      "ColumnName": "您是否直接参与过强迫人体器官及人体组织的移植？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblTransplant_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否直接参与过强迫人体器官及人体组织的移植？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxTransplant",
+      "Value": "Whether you are directly involved in the human organ and forced human tissue transplantation"
+    }]
+  }]
+};
+
+var SecurityandBackground4 = {
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "安全和背景PART4",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_securityandbackground4.aspx?node=SecurityandBackground4",
+    "Values": [{
+      "ColumnName": "您是否曾经试图以欺骗或故意造假及其他非法手段为自己，或帮助他人获取美国签证，入境美国或获取任何其他移民福利？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblImmigrationFraud_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾经试图以欺骗或故意造假及其他非法手段为自己，或帮助他人获取美国签证，入境美国或获取任何其他移民福利？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxImmigrationFraud",
+      "Value": "Have you ever tried to deceive or willful misrepresentation or other unlawful means for yourself, or help others get American visa, immigration USA or obtain any other immigration benefits"
+    }]
+  }]
+};
+
+var SecurityandBackground5 = {
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "安全和背景 PART5",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_securityandbackground5.aspx?node=SecurityandBackground5",
+    "Values": [{
+      "ColumnName": "您是否曾经拒绝将一在美国境外的美籍儿童的监护权移交给一被美国法庭批准享有法定监护权的人？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblChildCustody_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾经拒绝将一在美国境外的美籍儿童的监护权移交给一被美国法庭批准享有法定监护权的人？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxChildCustody",
+      "Value": "Have you ever been refused to hand over guardianship in USA overseas American children to be USA a court approved enjoy legal custody of the people"
+    }, {
+      "ColumnName": "您是否违反了法律或规定在美国进行过投票选举？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblVotingViolation_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否违反了法律或规定在美国进行过投票选举？说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxVotingViolation",
+      "Value": "If you violate the law or the provisions of a vote in elections in USA"
+    }, {
+      "ColumnName": "您是否曾为逃避交税而声明放弃美国公民身份?",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblRenounceExp_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否曾为逃避交税而声明放弃美国公民身份?说明[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxRenounceExp",
+      "Value": "Have you ever for tax evasion and renounce America citizenship"
+    }]
+  }]
+};
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -1525,6 +1869,24 @@ router.get('/VisaAutoCompleteApi', function(req, res, next) {
             break;
         case 'WorkEducation2':
             sendData = WorkEducation11;
+            break;
+        case 'WorkEducation3':
+            sendData = WorkEducation12;
+            break;
+        case 'SecurityandBackground1':
+            sendData = SecurityandBackground1;
+            break;
+        case 'SecurityandBackground2':
+            sendData = SecurityandBackground2;
+            break;
+        case 'SecurityandBackground3':
+            sendData = SecurityandBackground3;
+            break;
+        case 'SecurityandBackground4':
+            sendData = SecurityandBackground4;
+            break;
+        case 'SecurityandBackground5':
+            sendData = SecurityandBackground5;
             break;
     };
     res.send(sendData);
