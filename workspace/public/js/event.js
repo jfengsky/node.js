@@ -1,9 +1,28 @@
+var data = [{
+  label: 'node1',
+  children: [{
+    label: 'child1'
+  }, {
+    label: 'child2'
+  }]
+}, {
+  label: 'node2',
+  children: [{
+    label: 'child3'
+  }]
+}];
+
 $(function() {
   var command = {
     ignore: '.git|.gitignore|.idea',
     srcDir: '/Volumes/SSD/Users/jiangfeng/www/git/Tour/Front/Front.PC.Online',
     // workSpace: "cd '/Volumes/SSD/Users/jiangfeng/www/git/Tour/Front/Front.PC.Online'"
   };
+
+  $('#tree1').tree({
+    data: data,
+    closedIcon: '+'
+  });
 
   var Vacation = {
 
@@ -27,9 +46,9 @@ $(function() {
 
     /**
      * 获取工作目录下的文件夹及文件
-     * 
+     *
      */
-    _getFileList: function(){
+    _getFileList: function() {
       var self = this;
       self._sendData({
         url: '/filelist',
@@ -37,7 +56,7 @@ $(function() {
           dir: command.srcDir,
           ignore: command.ignore
         },
-        callback: function(_data){
+        callback: function(_data) {
           console.log(_data['ignore']);
         }
       });
