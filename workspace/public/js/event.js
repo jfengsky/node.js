@@ -1,17 +1,3 @@
-var data = [{
-  label: 'node1',
-  children: [{
-    label: 'child1'
-  }, {
-    label: 'child2'
-  }]
-}, {
-  label: 'node2',
-  children: [{
-    label: 'child3'
-  }]
-}];
-
 $(function() {
   var command = {
     ignore: '.git|.gitignore|.idea',
@@ -19,10 +5,7 @@ $(function() {
     // workSpace: "cd '/Volumes/SSD/Users/jiangfeng/www/git/Tour/Front/Front.PC.Online'"
   };
 
-  $('#tree1').tree({
-    data: data,
-    closedIcon: '+'
-  });
+  $("#browser").treeview();
 
   var Vacation = {
 

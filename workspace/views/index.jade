@@ -3,10 +3,32 @@ extends layout
 block content
   header.title vacation
   
-  .tree-content
-    #tree1
+  ul#browser.filetree
+    li
+      span.folder folder1
+    li
+      span.folder folder2
+      ul
+        li
+          span.folder folder3
+          ul
+            li
+              span.file itme3
+            li
+              span.file itme4
+        li
+          span.file itme3
+    li
+      span.folder folder2
+      ul
+        li
+          span.folder folder3
+          ul
+            li
+              span.file itme3
+            li
+              span.file itme4
   
-
 
 
 

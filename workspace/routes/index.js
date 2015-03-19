@@ -14,88 +14,80 @@ function getQuery(_href, _name) {
 };
 
 var Personal1Data = {
-    "Country": "美国",
-    "Pages": [{
-        "PageName": "第一页，个人信息页面",
-        "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_personal.aspx?node=Personal1",
-        "Values": [{
-            "ColumnName": "名字[拼音]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_GIVEN_NAME",
-            "Value": "CHUI"
-        }, {
-            "ColumnName": "姓氏[拼音]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_SURNAME",
-            "Value": "ZHANG"
-        }, {
-            "ColumnName": "全名[中文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_FULL_NAME_NATIVE",
-            "Value": "张锤"
-        }, {
-            "ColumnName": "全名不适用的",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxAPP_FULL_NAME_NATIVE_NA",
-            "Value": ""
-        }, {
-            "ColumnName": "是否拥有曾用名",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherNames_0",
-            "Value": "True"
-        }, {
-            "ColumnName": "曾用名姓氏[拼音]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_DListAlias_ctl00_tbxSURNAME",
-            "Value": "ZHANG"
-        }, {
-            "ColumnName": "曾用名名字[拼音]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_DListAlias_ctl00_tbxGIVEN_NAME",
-            "Value": "SHUN"
-        }, {
-            "ColumnName": "是否拥有电码名",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblTelecodeQuestion_1",
-            "Value": "False"
-        }, {
-            "ColumnName": "电码名来源",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_TelecodeSURNAME",
-            "Value": "telcode sum"
-        }, {
-            "ColumnName": "电码名",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_TelecodeGIVEN_NAME",
-            "Value": "telcode name"
-        }, {
-            "ColumnName": "性别",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblAPP_GENDER_0",
-            "Value": "True"
-        }, {
-            "ColumnName": "出生日期-日",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlDOBDay",
-            "Value": "1"
-        }, {
-            "ColumnName": "出生日期-月",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlDOBMonth",
-            "Value": "10"
-        }, {
-            "ColumnName": "出生日期-年",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxDOBYear",
-            "Value": "1983"
-        }, {
-            "ColumnName": "出生地-城市",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_POB_CITY",
-            "Value": "wuhan"
-        }, {
-            "ColumnName": "出生地-州省[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_POB_ST_PROVINCE",
-            "Value": ""
-        }, {
-            "ColumnName": "出生地-州省不适用的",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxAPP_POB_ST_PROVINCE_NA",
-            "Value": "True"
-        }, {
-            "ColumnName": "出生地-国家[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlAPP_POB_CNTRY",
-            "Value": "CHINA"
-        }, {
-            "ColumnName": "婚姻状况",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlAPP_MARITAL_STATUS",
-            "Value": "M"
-        }]
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "第一页，个人信息页面",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_personal.aspx?node=Personal1",
+    "Values": [{
+      "ColumnName": "名字[拼音]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_GIVEN_NAME",
+      "Value": "Chui"
+    }, {
+      "ColumnName": "姓氏[拼音]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_SURNAME",
+      "Value": "Yang"
+    }, {
+      "ColumnName": "全名[中文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_FULL_NAME_NATIVE",
+      "Value": "杨锤"
+    }, {
+      "ColumnName": "全名不适用的",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxAPP_FULL_NAME_NATIVE_NA",
+      "Value": "False"
+    }, {
+      "ColumnName": "曾用名姓氏[拼音]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_DListAlias_ctl00_tbxSURNAME",
+      "Value": "Zhang"
+    }, {
+      "ColumnName": "曾用名名字[拼音]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_DListAlias_ctl00_tbxGIVEN_NAME",
+      "Value": "Chui"
+    }, {
+      "ColumnName": "出生日期-日",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlDOBDay",
+      "Value": "1"
+    }, {
+      "ColumnName": "出生日期-月",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlDOBMonth",
+      "Value": "10"
+    }, {
+      "ColumnName": "出生日期-年",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxDOBYear",
+      "Value": "1983"
+    }, {
+      "ColumnName": "出生地-州省[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_POB_ST_PROVINCE",
+      "Value": ""
+    }, {
+      "ColumnName": "出生地-州省不适用的",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxAPP_POB_ST_PROVINCE_NA",
+      "Value": "True"
+    }, {
+      "ColumnName": "出生地-国家[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlAPP_POB_CNTRY",
+      "Value": "Zhongguo"
+    }, {
+      "ColumnName": "婚姻状况",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlAPP_MARITAL_STATUS",
+      "Value": "D"
+    }, {
+      "ColumnName": "性别",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblAPP_GENDER_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "是否拥有曾用名",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherNames_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您的名字有相应的电码吗?",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblTelecodeQuestion_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "出生地-城市[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_POB_CITY",
+      "Value": "Shanghai"
     }]
+  }]
 };
 
 var Personal2Data = {
@@ -388,7 +380,7 @@ var Travel5 = {
         }, {
             "ColumnName": "到达航班",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxArriveFlight",
-            "Value": ""
+            "Value": "737"
         }, {
             "ColumnName": "抵达城市[英文]",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxArriveCity",
@@ -408,7 +400,7 @@ var Travel5 = {
         }, {
             "ColumnName": "离开航班",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxDepartFlight",
-            "Value": ""
+            "Value": "787"
         }, {
             "ColumnName": "离美城市[英文]",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxDepartCity",
@@ -444,7 +436,7 @@ var Travel5 = {
         }, {
             "ColumnName": "在美停留期间的住址-街道地址（第二行）[英文]",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxStreetAddress2",
-            "Value": ""
+            "Value": "street2"
         }, {
             "ColumnName": "在美停留期间的住址-城市[英文]",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxCity",
@@ -460,7 +452,7 @@ var Travel5 = {
         }, {
             "ColumnName": "支付您旅行费用的个人或组织名称",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlWhoIsPaying",
-            "Value": "O"
+            "Value": "S"
         }, {
             "ColumnName": "承担您旅行费用者的姓氏[英文]",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPayerSurname",
@@ -508,7 +500,7 @@ var Travel5 = {
         }, {
             "ColumnName": "承担您旅行费用州/省份不适用的",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxDNAPayerStateProvince",
-            "Value": "False"
+            "Value": "True"
         }, {
             "ColumnName": "承担您旅行费用邮政编码",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPayerPostalZIPCode",
@@ -516,7 +508,7 @@ var Travel5 = {
         }, {
             "ColumnName": "承担您旅行费用邮政编码不适用的",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxDNAPayerPostalZIPCode",
-            "Value": "False"
+            "Value": "True"
         }, {
             "ColumnName": "承担您旅行费用国家[英文]",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlPayerCountry",
@@ -569,252 +561,482 @@ var Travel5 = {
     }]
 };
 
+// var TravelCompanions6 = {
+//     "Country": "美国",
+//     "Pages": [{
+//         "PageName": "第六页 旅行同伴",
+//         "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_travelcompanions.aspx?node=TravelCompanions",
+//         "Values": [{
+//             "ColumnName": "是否有人与您同行？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherPersonsTravelingWithYou_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "您是否作为一个团队或者组织的成员去旅行？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblGroupTravel_1",
+//             "Value": "False"
+//         }, {
+//             "ColumnName": "输入您旅行团队的名称[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxGroupName",
+//             "Value": "ZhongGuoChunQiuLvXingShe"
+//         }, {
+//             "ColumnName": "随行人员的姓氏[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dlTravelCompanions_ctl00_tbxSurname",
+//             "Value": "li"
+//         }, {
+//             "ColumnName": "随行人员的名字[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dlTravelCompanions_ctl00_tbxGivenName",
+//             "Value": "si"
+//         }, {
+//             "ColumnName": "随行人员和您的关系",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dlTravelCompanions_ctl00_ddlTCRelationship",
+//             "Value": "F"
+//         }]
+//     }]
+// };
+
 var TravelCompanions6 = {
-    "Country": "美国",
-    "Pages": [{
-        "PageName": "第六页 旅行同伴",
-        "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_travelcompanions.aspx?node=TravelCompanions",
-        "Values": [{
-            "ColumnName": "是否有人与您同行？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherPersonsTravelingWithYou_0",
-            "Value": "True"
-        }, {
-            "ColumnName": "您是否作为一个团队或者组织的成员去旅行？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblGroupTravel_1",
-            "Value": "False"
-        }, {
-            "ColumnName": "输入您旅行团队的名称[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxGroupName",
-            "Value": "ZhongGuoChunQiuLvXingShe"
-        }, {
-            "ColumnName": "随行人员的姓氏[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dlTravelCompanions_ctl00_tbxSurname",
-            "Value": "li"
-        }, {
-            "ColumnName": "随行人员的名字[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dlTravelCompanions_ctl00_tbxGivenName",
-            "Value": "si"
-        }, {
-            "ColumnName": "随行人员和您的关系",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dlTravelCompanions_ctl00_ddlTCRelationship",
-            "Value": "F"
-        }]
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "第六页 旅行同伴",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_travelcompanions.aspx?node=TravelCompanions",
+    "Values": [{
+      "ColumnName": "是否有人与您同行？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherPersonsTravelingWithYou_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否作为一个团队或者组织的成员去旅行？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblGroupTravel_1",
+      "Value": "False"
+    }, {
+      "ColumnName": "输入您旅行团队的名称[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxGroupName",
+      "Value": "333"
+    }, {
+      "ColumnName": "随行人员的姓氏[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dlTravelCompanions_ctl00_tbxSurname",
+      "Value": "111"
+    }, {
+      "ColumnName": "随行人员的名字[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dlTravelCompanions_ctl00_tbxGivenName",
+      "Value": "222"
+    }, {
+      "ColumnName": "随行人员和您的关系",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dlTravelCompanions_ctl01_ddlTCRelationship",
+      "Value": "S"
     }]
-};
-var PreviousUSTravel7 = {
-    "Country": "美国",
-    "Pages": [{
-        "PageName": "第七页 以前美国之行",
-        "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_previousustravel.aspx?node=PreviousUSTravel",
-        "Values": [{
-            "ColumnName": "您是否曾经在美国停留过？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_TRAVEL_IND_1",
-            "Value": "False"
-        }, {
-            "ColumnName": "以往赴美1抵达日期-日",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_DTEDay",
-            "Value": "1"
-        }, {
-            "ColumnName": "以往赴美1抵达日期-月",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_DTEMonth",
-            "Value": "1"
-        }, {
-            "ColumnName": "以往赴美1抵达日期-年",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_tbxPREV_US_VISIT_DTEYear",
-            "Value": "2010"
-        }, {
-            "ColumnName": "以往赴美1停留时间单位",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_LOS_CD",
-            "Value": "M"
-        }, {
-            "ColumnName": "以往赴美1时长",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_tbxPREV_US_VISIT_LOS",
-            "Value": "1"
-        }, {
-            "ColumnName": "以往赴美2抵达日期-日",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_DTEDay",
-            "Value": "1"
-        }, {
-            "ColumnName": "以往赴美2抵达日期-月",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_DTEMonth",
-            "Value": "1"
-        }, {
-            "ColumnName": "以往赴美2抵达日期-年",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_tbxPREV_US_VISIT_DTEYear",
-            "Value": "2009"
-        }, {
-            "ColumnName": "以往赴美2停留时间单位",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_LOS_CD",
-            "Value": "M"
-        }, {
-            "ColumnName": "以往赴美2时长",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_tbxPREV_US_VISIT_LOS",
-            "Value": "2"
-        }, {
-            "ColumnName": "您是否持有或者曾经持有美国驾照？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_IND_1",
-            "Value": "False"
-        }, {
-            "ColumnName": "您是否持有或者曾经持有美国驾驶执照？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_DRIVER_LIC_IND_0",
-            "Value": "True"
-        }, {
-            "ColumnName": "驾驶执照的号码",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_tbxUS_DRIVER_LICENSE",
-            "Value": "234523452345"
-        }, {
-            "ColumnName": "不知道驾驶执照的号码",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_cbxUS_DRIVER_LICENSE_NA",
-            "Value": "False"
-        }, {
-            "ColumnName": "驾驶执照的州",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_ddlUS_DRIVER_LICENSE_STATE",
-            "Value": "CO"
-        }, {
-            "ColumnName": "上一次获得美国签证的日期-日",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlPREV_VISA_ISSUED_DTEDay",
-            "Value": "1"
-        }, {
-            "ColumnName": "上一次获得美国签证的日期-月",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlPREV_VISA_ISSUED_DTEMonth",
-            "Value": "2"
-        }, {
-            "ColumnName": "上一次获得美国签证的日期-年",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_ISSUED_DTEYear",
-            "Value": "2008"
-        }, {
-            "ColumnName": "签证号码",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_FOIL_NUMBER",
-            "Value": "9998877676655"
-        }, {
-            "ColumnName": "签证号码（未知）",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxPREV_VISA_FOIL_NUMBER_NA",
-            "Value": "False"
-        }, {
-            "ColumnName": "您此次是否申请同类签证",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_SAME_TYPE_IND_0",
-            "Value": "True"
-        }, {
-            "ColumnName": "您现在申请签证的所在国家或地点同于您上个签证颁发所在国或地点吗? 此国家或地点是您主要居住地吗?",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_SAME_CNTRY_IND_1",
-            "Value": "False"
-        }, {
-            "ColumnName": "您是否留取过十指指纹？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_TEN_PRINT_IND_0",
-            "Value": "True"
-        }, {
-            "ColumnName": "您的美国签证是否曾经遗失或者被盗？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_LOST_IND_0",
-            "Value": "True"
-        }, {
-            "ColumnName": "输入您签证遗失或被盗窃的年份",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_LOST_YEAR",
-            "Value": "2009"
-        }, {
-            "ColumnName": "签证遗失解释[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_LOST_EXPL",
-            "Value": "asdfasdf"
-        }, {
-            "ColumnName": "您的美国签证是否曾经被注销或撤销过？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_CANCELLED_IND_0",
-            "Value": "True"
-        }, {
-            "ColumnName": "注销或撤销解释[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_CANCELLED_EXPL",
-            "Value": "no"
-        }, {
-            "ColumnName": "您被拒签过吗？ 或在入境口岸被拒入境，或被撤销入境申请？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_REFUSED_IND_1",
-            "Value": "False"
-        }, {
-            "ColumnName": "拒签或撤销入境的解释[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_REFUSED_EXPL",
-            "Value": "sdfasdfa"
-        }, {
-            "ColumnName": "您是， 或者曾经是美国合法永久居民吗？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPERM_RESIDENT_IND_1",
-            "Value": "False"
-        }, {
-            "ColumnName": "您是， 或者曾经是美国合法永久居民吗解释[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPERM_RESIDENT_EXPL",
-            "Value": "no"
-        }, {
-            "ColumnName": "曾有人在公民及移民服务局为您申请过移民吗？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblIV_PETITION_IND_1",
-            "Value": "False"
-        }, {
-            "ColumnName": "曾有人在公民及移民服务局为您申请过移民吗解释[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxIV_PETITION_EXPL",
-            "Value": "noooo"
-        }]
-    }]
+  }]
 };
 
+var PreviousUSTravel7 ={
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "第七页 以前美国之行",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_previousustravel.aspx?node=PreviousUSTravel",
+    "Values": [{
+      "ColumnName": "您是否曾经在美国停留过？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_TRAVEL_IND_1",
+      "Value": "False"
+    }, {
+      "ColumnName": "以往赴美1抵达日期-日",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_DTEDay",
+      "Value": "6"
+    }, {
+      "ColumnName": "以往赴美1抵达日期-月",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_DTEMonth",
+      "Value": "5"
+    }, {
+      "ColumnName": "以往赴美1抵达日期-年",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_tbxPREV_US_VISIT_DTEYear",
+      "Value": "2004"
+    }, {
+      "ColumnName": "以往赴美1停留时间单位",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_LOS_CD",
+      "Value": "D"
+    }, {
+      "ColumnName": "以往赴美1时长",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_tbxPREV_US_VISIT_LOS",
+      "Value": "4"
+    }, {
+      "ColumnName": "以往赴美2抵达日期-日",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_DTEDay",
+      "Value": "5"
+    }, {
+      "ColumnName": "以往赴美2抵达日期-月",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_DTEMonth",
+      "Value": "6"
+    }, {
+      "ColumnName": "以往赴美2抵达日期-年",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_tbxPREV_US_VISIT_DTEYear",
+      "Value": "2007"
+    }, {
+      "ColumnName": "以往赴美2停留时间单位",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_LOS_CD",
+      "Value": "D"
+    }, {
+      "ColumnName": "以往赴美2时长",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_tbxPREV_US_VISIT_LOS",
+      "Value": "8"
+    }, {
+      "ColumnName": "您是否持有或者曾经持有美国驾照？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "上一次获得美国签证的日期-日",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlPREV_VISA_ISSUED_DTEDay",
+      "Value": "5"
+    }, {
+      "ColumnName": "上一次获得美国签证的日期-月",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlPREV_VISA_ISSUED_DTEMonth",
+      "Value": "4"
+    }, {
+      "ColumnName": "上一次获得美国签证的日期-年",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_ISSUED_DTEYear",
+      "Value": "2003"
+    }, {
+      "ColumnName": "签证号码",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_FOIL_NUMBER",
+      "Value": ""
+    }, {
+      "ColumnName": "签证号码（未知）",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxPREV_VISA_FOIL_NUMBER_NA",
+      "Value": "True"
+    }, {
+      "ColumnName": "您此次是否申请同类签证",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_SAME_TYPE_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您现在申请签证的所在国家或地点同于您上个签证颁发所在国或地点吗? 此国家或地点是您主要居住地吗?",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_SAME_CNTRY_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您是否留取过十指指纹？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_TEN_PRINT_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "您的美国签证是否曾经遗失或者被盗？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_LOST_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "输入您签证遗失或被盗窃的年份",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_LOST_YEAR",
+      "Value": "2001"
+    }, {
+      "ColumnName": "签证遗失解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_LOST_EXPL",
+      "Value": "Stolen 2 reasons"
+    }, {
+      "ColumnName": "您的美国签证是否曾经被注销或撤销过？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_CANCELLED_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "注销或撤销解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_CANCELLED_EXPL",
+      "Value": "Cancellation reason 1"
+    }, {
+      "ColumnName": "您被拒签过吗？ 或在入境口岸被拒入境，或被撤销入境申请？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_REFUSED_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "拒签或撤销入境的解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_CANCELLED_EXPL",
+      "Value": "Have you ever been refused a visa, been refused entry America, or be revoked visa application"
+    }, {
+      "ColumnName": "您是， 或者曾经是美国合法永久居民吗？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPERM_RESIDENT_IND_1",
+      "Value": "False"
+    }, {
+      "ColumnName": "您是， 或者曾经是美国合法永久居民吗解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPERM_RESIDENT_EXPL",
+      "Value": ""
+    }, {
+      "ColumnName": "曾有人在公民及移民服务局为您申请过移民吗？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblIV_PETITION_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "曾有人在公民及移民服务局为您申请过移民吗解释[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxIV_PETITION_EXPL_1",
+      "Value": "It has been in the citizenship or immigration services for you to apply for immigration it"
+    }]
+  }]
+};
+
+// var PreviousUSTravel7 = {
+//     "Country": "美国",
+//     "Pages": [{
+//         "PageName": "第七页 以前美国之行",
+//         "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_previousustravel.aspx?node=PreviousUSTravel",
+//         "Values": [{
+//             "ColumnName": "您是否曾经在美国停留过？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_TRAVEL_IND_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "以往赴美1抵达日期-日",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_DTEDay",
+//             "Value": "1"
+//         }, {
+//             "ColumnName": "以往赴美1抵达日期-月",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_DTEMonth",
+//             "Value": "1"
+//         }, {
+//             "ColumnName": "以往赴美1抵达日期-年",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_tbxPREV_US_VISIT_DTEYear",
+//             "Value": "2010"
+//         }, {
+//             "ColumnName": "以往赴美1停留时间单位",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_LOS_CD",
+//             "Value": "M"
+//         }, {
+//             "ColumnName": "以往赴美1时长",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_tbxPREV_US_VISIT_LOS",
+//             "Value": "1"
+//         }, {
+//             "ColumnName": "以往赴美2抵达日期-日",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_DTEDay",
+//             "Value": "1"
+//         }, {
+//             "ColumnName": "以往赴美2抵达日期-月",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_DTEMonth",
+//             "Value": "1"
+//         }, {
+//             "ColumnName": "以往赴美2抵达日期-年",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_tbxPREV_US_VISIT_DTEYear",
+//             "Value": "2009"
+//         }, {
+//             "ColumnName": "以往赴美2停留时间单位",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_ddlPREV_US_VISIT_LOS_CD",
+//             "Value": "M"
+//         }, {
+//             "ColumnName": "以往赴美2时长",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl01_tbxPREV_US_VISIT_LOS",
+//             "Value": "2"
+//         }, {
+//             "ColumnName": "您是否持有或者曾经持有美国驾照？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_IND_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "您是否持有或者曾经持有美国驾驶执照？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_DRIVER_LIC_IND_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "驾驶执照的号码",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_tbxUS_DRIVER_LICENSE",
+//             "Value": "234523452345"
+//         }, {
+//             "ColumnName": "不知道驾驶执照的号码",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_cbxUS_DRIVER_LICENSE_NA",
+//             "Value": "False"
+//         }, {
+//             "ColumnName": "驾驶执照的州",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_ddlUS_DRIVER_LICENSE_STATE",
+//             "Value": "CO"
+//         }, {
+//             "ColumnName": "上一次获得美国签证的日期-日",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlPREV_VISA_ISSUED_DTEDay",
+//             "Value": "1"
+//         }, {
+//             "ColumnName": "上一次获得美国签证的日期-月",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlPREV_VISA_ISSUED_DTEMonth",
+//             "Value": "2"
+//         }, {
+//             "ColumnName": "上一次获得美国签证的日期-年",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_ISSUED_DTEYear",
+//             "Value": "2008"
+//         }, {
+//             "ColumnName": "签证号码",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_FOIL_NUMBER",
+//             "Value": "9998877676655"
+//         }, {
+//             "ColumnName": "签证号码（未知）",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxPREV_VISA_FOIL_NUMBER_NA",
+//             "Value": "False"
+//         }, {
+//             "ColumnName": "您此次是否申请同类签证",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_SAME_TYPE_IND_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "您现在申请签证的所在国家或地点同于您上个签证颁发所在国或地点吗? 此国家或地点是您主要居住地吗?",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_SAME_CNTRY_IND_1",
+//             "Value": "False"
+//         }, {
+//             "ColumnName": "您是否留取过十指指纹？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_TEN_PRINT_IND_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "您的美国签证是否曾经遗失或者被盗？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_LOST_IND_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "输入您签证遗失或被盗窃的年份",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_LOST_YEAR",
+//             "Value": "2009"
+//         }, {
+//             "ColumnName": "签证遗失解释[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_LOST_EXPL",
+//             "Value": "asdfasdf"
+//         }, {
+//             "ColumnName": "您的美国签证是否曾经被注销或撤销过？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_CANCELLED_IND_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "注销或撤销解释[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_CANCELLED_EXPL",
+//             "Value": "no"
+//         }, {
+//             "ColumnName": "您被拒签过吗？ 或在入境口岸被拒入境，或被撤销入境申请？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_REFUSED_IND_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "拒签或撤销入境的解释[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPREV_VISA_REFUSED_EXPL",
+//             "Value": "sdfasdfa"
+//         }, {
+//             "ColumnName": "您是， 或者曾经是美国合法永久居民吗？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPERM_RESIDENT_IND_1",
+//             "Value": "False"
+//         }, {
+//             "ColumnName": "您是， 或者曾经是美国合法永久居民吗解释[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxPERM_RESIDENT_EXPL",
+//             "Value": "no"
+//         }, {
+//             "ColumnName": "曾有人在公民及移民服务局为您申请过移民吗？",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblIV_PETITION_IND_0",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "曾有人在公民及移民服务局为您申请过移民吗解释[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxIV_PETITION_EXPL",
+//             "Value": "noooo"
+//         }]
+//     }]
+// };
+
+// var USContact8 = {
+//     "Country": "美国",
+//     "Pages": [{
+//         "PageName": "第八页 美国联系人信息",
+//         "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_uscontact.aspx?node=USContact",
+//         "Values": [{
+//             "ColumnName": "在美国的联系人—姓氏[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_SURNAME",
+//             "Value": "Wang"
+//         }, {
+//             "ColumnName": "在美国的联系人—名字[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_GIVEN_NAME",
+//             "Value": "Wu"
+//         }, {
+//             "ColumnName": "无在美联系人",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxUS_POC_NAME_NA",
+//             "Value": "False"
+//         }, {
+//             "ColumnName": "在美国的联系组织名称[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ORGANIZATION",
+//             "Value": "New York University"
+//         }, {
+//             "ColumnName": "无在美国的联系组织",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxUS_POC_ORG_NA_IND",
+//             "Value": "True"
+//         }, {
+//             "ColumnName": "在美国的联系组织与您的关系",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlUS_POC_REL_TO_APP",
+//             "Value": "R"
+//         }, {
+//             "ColumnName": "美国街道地址（第一行）[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_LN1",
+//             "Value": "Room 15670,Diyi No.,Niuyuejie Boulevard"
+//         }, {
+//             "ColumnName": "美国街道地址（第二行）[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_LN2",
+//             "Value": "Asadefashedianfa"
+//         }, {
+//             "ColumnName": "美国城市[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_CITY",
+//             "Value": "Niuyue"
+//         }, {
+//             "ColumnName": "美国州[英文]",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlUS_POC_ADDR_STATE",
+//             "Value": "MA"
+//         }, {
+//             "ColumnName": "美国邮政编码（如果知道的话）",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_POSTAL_CD",
+//             "Value": "23456"
+//         }, {
+//             "ColumnName": "美国电话号码",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_HOME_TEL",
+//             "Value": "123456789"
+//         }, {
+//             "ColumnName": "美国电子邮件地址",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_EMAIL_ADDR",
+//             "Value": "zhang.chui@qq.com"
+//         }, {
+//             "ColumnName": "美国电子邮件地址（不适用的）",
+//             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxUS_POC_EMAIL_ADDR_NA",
+//             "Value": "True"
+//         }]
+//     }]
+// };
 var USContact8 = {
-    "Country": "美国",
-    "Pages": [{
-        "PageName": "第八页 美国联系人信息",
-        "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_uscontact.aspx?node=USContact",
-        "Values": [{
-            "ColumnName": "在美国的联系人—姓氏[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_SURNAME",
-            "Value": "Wang"
-        }, {
-            "ColumnName": "在美国的联系人—名字[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_GIVEN_NAME",
-            "Value": "Wu"
-        }, {
-            "ColumnName": "无在美联系人",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxUS_POC_NAME_NA",
-            "Value": "False"
-        }, {
-            "ColumnName": "在美国的联系组织名称[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ORGANIZATION",
-            "Value": "New York University"
-        }, {
-            "ColumnName": "无在美国的联系组织",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxUS_POC_ORG_NA_IND",
-            "Value": "True"
-        }, {
-            "ColumnName": "在美国的联系组织与您的关系",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlUS_POC_REL_TO_APP",
-            "Value": "R"
-        }, {
-            "ColumnName": "美国街道地址（第一行）[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_LN1",
-            "Value": "Room 15670,Diyi No.,Niuyuejie Boulevard"
-        }, {
-            "ColumnName": "美国街道地址（第二行）[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_LN2",
-            "Value": "Asadefashedianfa"
-        }, {
-            "ColumnName": "美国城市[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_CITY",
-            "Value": "Niuyue"
-        }, {
-            "ColumnName": "美国州[英文]",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlUS_POC_ADDR_STATE",
-            "Value": "MA"
-        }, {
-            "ColumnName": "美国邮政编码（如果知道的话）",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_POSTAL_CD",
-            "Value": "23456"
-        }, {
-            "ColumnName": "美国电话号码",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_HOME_TEL",
-            "Value": "123456789"
-        }, {
-            "ColumnName": "美国电子邮件地址",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_EMAIL_ADDR",
-            "Value": "zhang.chui@qq.com"
-        }, {
-            "ColumnName": "美国电子邮件地址（不适用的）",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxUS_POC_EMAIL_ADDR_NA",
-            "Value": "True"
-        }]
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "第八页 美国联系人信息",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_uscontact.aspx?node=USContact",
+    "Values": [{
+      "ColumnName": "在美国的联系人—姓氏[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_SURNAME",
+      "Value": ""
+    }, {
+      "ColumnName": "在美国的联系人—名字[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_GIVEN_NAME",
+      "Value": ""
+    }, {
+      "ColumnName": "无在美联系人",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxUS_POC_NAME_NA",
+      "Value": "True"
+    }, {
+      "ColumnName": "在美国的联系组织名称[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ORGANIZATION",
+      "Value": "CCC"
+    }, {
+      "ColumnName": "无在美国的联系组织",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxUS_POC_ORG_NA_IND",
+      "Value": "False"
+    }, {
+      "ColumnName": "在美国的联系组织与您的关系",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_ddlUS_POC_REL_TO_APP",
+      "Value": "H"
+    }, {
+      "ColumnName": "美国街道地址（第一行）[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_LN1",
+      "Value": "Dizhi11,Zaimeiguodelianxirenjie Boulevard"
+    }, {
+      "ColumnName": "美国街道地址（第二行）[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_LN2",
+      "Value": ""
+    }, {
+      "ColumnName": "美国城市[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_csvtbxCity",
+      "Value": "Zaimeiguodelianxiren22"
+    }, {
+      "ColumnName": "美国州[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_csvddlState",
+      "Value": "GUAM"
+    }, {
+      "ColumnName": "美国邮政编码（如果知道的话）",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_POSTAL_CD",
+      "Value": "444"
+    }, {
+      "ColumnName": "美国电话号码",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_HOME_TEL",
+      "Value": "555"
+    }, {
+      "ColumnName": "美国电子邮件地址",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_EMAIL_ADDR",
+      "Value": ""
+    }, {
+      "ColumnName": "美国电子邮件地址（不适用的）",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxUS_POC_EMAIL_ADDR_NA",
+      "Value": "True"
     }]
+  }]
 };
-
 var Relatives9 = {
     "Country": "美国",
     "Pages": [{
