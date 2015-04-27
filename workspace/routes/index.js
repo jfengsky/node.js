@@ -1156,8 +1156,8 @@ var Relatives9 = {
             "Value": "S"
         }, {
             "ColumnName": "您在美国是否还有其他亲属？",
-            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblUS_OTHER_RELATIVE_IND_0",
-            "Value": "True"
+            "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblUS_OTHER_RELATIVE_IND_1",
+            "Value": "False"
         }, {
             "ColumnName": "母亲姓氏不知道",
             "FormId": "ctl00_SiteContentPlaceHolder_FormView1_cbxMOTHER_SURNAME_UNK_IND",
@@ -2172,6 +2172,80 @@ var PrevSpouse10 = {
     }]
 };
 
+var SignCertify14 = {
+  "Country": "美国",
+  "Pages": [{
+    "PageName": "SignCertify",
+    "PageUrl": "https://ceac.state.gov/GenNIV/General/esign/signtheapplication.aspx?node=SignCertify",
+    "Values": [{
+      "ColumnName": "是否有任何人协助您填写申请？",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_rblPREP_IND_0",
+      "Value": "True"
+    }, {
+      "ColumnName": "姓氏",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_tbxPREP_SURNAME",
+      "Value": "zhang"
+    }, {
+      "ColumnName": "名字",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_tbxPREP_GIVEN_NAME",
+      "Value": "ding"
+    }, {
+      "ColumnName": "姓名是否不适用",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_cbxPREP_NAME_NA",
+      "Value": "True"
+    }, {
+      "ColumnName": "机构名称",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_tbxPREP_ORGANIZATION",
+      "Value": "SH CTRIP INTL TRAVEL SERVICE CO"
+    }, {
+      "ColumnName": "机构名称不适用的",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_cbxPREP_ORG_NA",
+      "Value": "False"
+    }, {
+      "ColumnName": "街道地址（第一行）",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_tbxPREP_ADDR_LN1",
+      "Value": "NO 99 FUQUAN RD"
+    }, {
+      "ColumnName": "街道地址（第二行）",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_tbxPREP_ADDR_LN2",
+      "Value": "NO 99 FUQUAN RD 222"
+    }, {
+      "ColumnName": "城市",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_tbxPREP_ADDR_CITY",
+      "Value": "SHANGHAI"
+    }, {
+      "ColumnName": "州/省份",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_tbxPREP_ADDR_STATE",
+      "Value": "SHANGHAI"
+    }, {
+      "ColumnName": "州/省份 不适用的",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_cbxPREP_ADDR_STATE_NA",
+      "Value": "True"
+    }, {
+      "ColumnName": "邮政区域/邮政编码",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_tbxPREP_ADDR_POSTAL_CD",
+      "Value": "200335"
+    }, {
+      "ColumnName": "邮政区域/邮政编码 不适用的",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_cbxPREP_ADDR_POSTAL_CD_NA",
+      "Value": "True"
+    }, {
+      "ColumnName": "国家/地区",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_ddlCountry",
+      "Value": "CHIN"
+    }, {
+      "ColumnName": "与您的关系",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView3_tbxPREP_REL_TO_APP",
+      "Value": "AGENT"
+    }, {
+      "ColumnName": "输入您护照/旅行证件的号码",
+      "FormId": "ctl00_SiteContentPlaceHolder_PPTNumTbx",
+      "Value": "88888888888888"
+    }]
+  }]
+};
+
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
     res.render('index', {
@@ -2252,6 +2326,9 @@ router.get('/VisaAutoCompleteApi', function(req, res, next) {
             break;
         case 'SecurityandBackground5':
             sendData = SecurityandBackground5;
+            break;
+        case 'SignCertify':
+            sendData = SignCertify14;
             break;
     };
     res.send(sendData);
