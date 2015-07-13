@@ -638,8 +638,8 @@ var PreviousUSTravel7 = {
     "PageUrl": "https://ceac.state.gov/GenNIV/General/complete/complete_previousustravel.aspx?node=PreviousUSTravel",
     "Values": [{
       "ColumnName": "您是否曾经在美国停留过？",
-      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_TRAVEL_IND_1",
-      "Value": "False"
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_TRAVEL_IND_0",
+      "Value": "True"
     }, {
       "ColumnName": "以往赴美1抵达日期-日",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlPREV_US_VISIT_ctl00_ddlPREV_US_VISIT_DTEDay",
@@ -768,6 +768,10 @@ var PreviousUSTravel7 = {
       "ColumnName": "驾驶执照的号码未知的",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_cbxUS_DRIVER_LICENSE_NA",
       "Value": "False"
+    }, {
+      "ColumnName": "驾照所属州[英文]",
+      "FormId": "ctl00_SiteContentPlaceHolder_FormView1_dtlUS_DRIVER_LICENSE_ctl00_ddlUS_DRIVER_LICENSE_STATE",
+      "Value": "CA"
     }, {
       "ColumnName": "您是否曾经获得过美国签证？",
       "FormId": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_IND_0",
