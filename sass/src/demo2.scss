@@ -1,0 +1,10 @@
+.sta {
+  color: #f00;
+  i{
+    font-size: 14px;
+    &.red{
+      color: #06f;
+      padding: 10px
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.sta {
+  color: #f00; }
+  .sta i {
+    font-size: 14px; }
+    .sta i.red {
+      color: #06f;
+      padding: 10px; }
