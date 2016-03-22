@@ -1,0 +1,13 @@
+$fontSize: 12px;
+
+.test{
+  background-color: #f00;
+  font-size: $fontSize;
+  span{
+    color: #f60
+  }
+}
+
+span{
+  display:block;
+}
